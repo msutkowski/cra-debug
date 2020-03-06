@@ -1,0 +1,66 @@
+{
+  "name": "react",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "redux-devtools-extension": "^2.13.2",
+    "react-app-rewire-hot-loader": "^1.0.1",
+    "husky": "^3.0.3",
+    "lint-staged": "^9.2.1",
+    "prettier": "^1.18.2",
+    "prop-types": "latest",
+    "react-scripts": "^1.0.17"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.4.0",
+    "@material-ui/icons": "^1.1.0",
+    "axios": "^0.18.0",
+    "connected-react-router": "^6.7.0",
+    "date-fns": "^2.0.0-beta.5",
+    "history": "^4.7.2",
+    "jwt-decode": "^2.2.0",
+    "mdi-material-ui": "^5.1.1",
+    "react": "^16.3.0",
+    "react-block-ui": "^1.1.1",
+    "react-dom": "^16.3.0",
+    "react-facebook-login": "^4.0.1",
+    "react-hot-loader": "^4.3.3",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "next",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "sanitize.css": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
